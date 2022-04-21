@@ -5,6 +5,10 @@
   "publishedDefaultPageName": "Food Delivery ",
   "unpublishedDefaultPageName": "Food Delivery ",
   "invisibleActionFields": {
+    "Food Delivery _fetch_customers": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Food Delivery _fetch_orders": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
