@@ -1,10 +1,21 @@
 {
-  "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 3,
+  "serverSchemaVersion": 4,
   "publishedDefaultPageName": "Food Delivery ",
   "unpublishedDefaultPageName": "Food Delivery ",
   "invisibleActionFields": {
+    "Food Delivery _add_order": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Food Delivery _fetch_all_users": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Food Delivery _fetch_catalog": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Food Delivery _fetch_customers": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
@@ -18,18 +29,22 @@
       "publishedUserSetOnLoad": false
     }
   },
-  "editModeTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false
-  },
   "publishedTheme": {
     "name": "Classic",
     "displayName": "Classic",
     "isSystemTheme": true,
-    "deleted": false
+    "deleted": false,
+    "policies": [
+      {
+        "permission": "read:themes",
+        "users": [
+          "anonymousUser"
+        ],
+        "groups": []
+      }
+    ]
   },
   "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
 }
